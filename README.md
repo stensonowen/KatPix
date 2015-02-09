@@ -1,2 +1,5 @@
 # KatPix
 A Python program designed to scrape Reddit for images of cats and email them out. Written October 2013
+
+
+This script started as a joke between a few friends of mine and my 12th grade Calculus teacher who said it would be acceptable to email him pictures of cats. Naturally, I wrote a script that used httplib and grabbed the first image it could find from http://reddit.com/r/cats and thew it into an email. Over the next few months the program evolved, as I learned more Python or tweaked how it ran. The email list expanded somewhat, and it still goes out today, almost 18 months later. Offshoots of the original KatPix have come up too, including versions that go out weekly or use a different subreddit. It is run from a cronjob on a Raspberry Pi. Enclosed is a screenshot for an example of a recent email.
